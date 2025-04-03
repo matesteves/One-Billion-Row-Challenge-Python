@@ -1,7 +1,7 @@
-# Project: [Your Project Name]
+# One Billion Row Challenge in Python
 
 ## Introduction
-This project aims to efficiently process a large dataset containing temperature measurements from various weather stations. The main challenge is to compute statistics such as minimum, mean (rounded to one decimal place), and maximum temperature for each station, presenting the results in a table sorted by station name.
+This project aims to efficiently process a large dataset containing temperature measurements from various weather stations. The main challenge is to compute statistics such as minimum, mean (rounded to one decimal place), and maximum temperatures for each station, presenting the results in a table sorted by station name.
 
 Each line of the input file follows the format:
 ```
@@ -20,7 +20,6 @@ The project utilizes different approaches for data processing, leveraging variou
 - **Pure Python**
 - **Pandas**
 - **Dask**
-- **Polars**
 - **DuckDB**
 
 ## Dependencies
@@ -34,8 +33,8 @@ dask[complete]==2024.2.0
 ## How to Run
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-repository.git
-   cd your-repository
+   git clone https://github.com/One-Billion-Row-Challenge-Python.git
+   cd One-Billion-Row-Challenge-Python
    ```
 2. Set up the Python environment:
    ```sh
@@ -66,14 +65,12 @@ Tests were conducted on a **Windows machine with a Ryzen 7 5800X processor and 3
 | Pure Python     | 1490.54       |
 | Pandas          | 274.37        |
 | Dask            | 163.44        |
-| Polars          | 34.00         |
 | DuckDB          | 15.21         |
 
 ## Conclusion
-The project highlights the importance of selecting the right tool for large-scale data processing. While traditional approaches (Bash, Pure Python, and Pandas) require manual optimizations, modern libraries such as Dask, Polars, and DuckDB provide more efficient and scalable solutions.
+The project highlights the importance of selecting the right tool for large-scale data processing. While traditional approaches (Bash, Pure Python, and Pandas) require manual optimizations, modern libraries such as Dask and DuckDB provide more efficient and scalable solutions.
 
 **DuckDB** demonstrated the best performance, standing out as one of the top choices for this type of analysis.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
